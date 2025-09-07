@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attila's Workshop - StarRez</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="dist/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <img src="your-image.jpg" alt="Main image" class="main-img">
+
+    <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location" required>
+
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
